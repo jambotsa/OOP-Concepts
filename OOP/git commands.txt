@@ -1,0 +1,156 @@
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\kalpesh.Lenovo-kalpesh>C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src
+'C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kalpesh.Lenovo-kalpesh>ccd C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src
+'ccd' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kalpesh.Lenovo-kalpesh>cd C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src
+
+C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src>git add
+fatal: Not a git repository (or any of the parent directories): .git
+
+C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src>git clone git@github.com:jambotsa/OOP.git
+Cloning into 'OOP'...
+Warning: Permanently added the RSA host key for IP address '192.30.255.112' to the list of known hosts.
+warning: You appear to have cloned an empty repository.
+Checking connectivity... done.
+
+C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src>git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src>dir
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is D822-2F36
+
+ Directory of C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src
+
+11/11/2017  05:42 AM    <DIR>          .
+11/11/2017  05:42 AM    <DIR>          ..
+11/11/2017  04:34 AM    <DIR>          Inheritance
+11/11/2017  04:58 AM    <DIR>          Interface
+11/11/2017  05:42 AM    <DIR>          OOP
+11/11/2017  04:31 AM    <DIR>          polymorphism
+               0 File(s)              0 bytes
+               6 Dir(s)  14,916,808,704 bytes free
+
+C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src>CD OOP
+
+C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src\OOP>git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        child.java
+        overidingcharacter.java
+        overloading.java
+        overriding_number.java
+        parent.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src\OOP>git add -a
+error: unknown switch `a'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod <(+/-)x>      override the executable bit of the listed files
+
+
+C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src\OOP>git commit -m "OOP practise"
+On branch master
+
+Initial commit
+
+Untracked files:
+        child.java
+        overidingcharacter.java
+        overloading.java
+        overriding_number.java
+        parent.java
+
+nothing added to commit but untracked files present
+
+C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src\OOP>git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        child.java
+        overidingcharacter.java
+        overloading.java
+        overriding_number.java
+        parent.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src\OOP>git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src\OOP>git add -A
+
+C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src\OOP>git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   child.java
+        new file:   overidingcharacter.java
+        new file:   overloading.java
+        new file:   overriding_number.java
+        new file:   parent.java
+
+
+C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src\OOP>git commit -m"OOP practise"
+[master (root-commit) 63ab638] OOP practise
+ 5 files changed, 134 insertions(+)
+ create mode 100644 child.java
+ create mode 100644 overidingcharacter.java
+ create mode 100644 overloading.java
+ create mode 100644 overriding_number.java
+ create mode 100644 parent.java
+
+C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src\OOP>git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+nothing to commit, working tree clean
+
+C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src\OOP>git push
+Warning: Permanently added the RSA host key for IP address '192.30.255.113' to the list of known hosts.
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.36 KiB | 0 bytes/s, done.
+Total 7 (delta 0), reused 0 (delta 0)
+To github.com:jambotsa/OOP.git
+ * [new branch]      master -> master
+
+C:\Users\kalpesh.Lenovo-kalpesh\Desktop\Sadhana java files\Selenium_Class\OOP\src\OOP>
